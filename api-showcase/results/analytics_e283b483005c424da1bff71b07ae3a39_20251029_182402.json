@@ -1,0 +1,53 @@
+{
+  "document_id": "e283b483005c424da1bff71b07ae3a39",
+  "filename": "102560930721 - 182019849",
+  "assessment": "imd_check",
+  "number_of_questions": 22,
+  "number_of_ko_questions": 10,
+  "number_of_plausible_checks": 1,
+  "number_of_questions_answered_no": 18,
+  "number_of_ko_questions_answered_no": 8,
+  "number_of_plausible_checks_answered_no": 0,
+  "is_plausible": true,
+  "max_total_risk_points": 180,
+  "total_risk_score": 80,
+  "risk_ratio": 0.4444,
+  "categories": [
+    {
+      "category_name": "Completeness",
+      "max_total_risk_points": 40,
+      "total_risk_score": 20,
+      "risk_ratio": 0.5
+    },
+    {
+      "category_name": "Breach of monitoring and control responsibilities",
+      "max_total_risk_points": 20,
+      "total_risk_score": 20,
+      "risk_ratio": 1.0
+    },
+    {
+      "category_name": "Nullity/invalidity due to lack of form",
+      "max_total_risk_points": 15,
+      "total_risk_score": 10,
+      "risk_ratio": 0.6667
+    },
+    {
+      "category_name": "Violation of information and transparency obligations",
+      "max_total_risk_points": 70,
+      "total_risk_score": 10,
+      "risk_ratio": 0.1429
+    },
+    {
+      "category_name": "Violation of regulations regardin the adequac of advice",
+      "max_total_risk_points": 30,
+      "total_risk_score": 20,
+      "risk_ratio": 0.6667
+    },
+    {
+      "category_name": "Violation of regulations for the protection of the policyholder/law",
+      "max_total_risk_points": 5,
+      "total_risk_score": 0,
+      "risk_ratio": 0.0
+    }
+  ]
+}

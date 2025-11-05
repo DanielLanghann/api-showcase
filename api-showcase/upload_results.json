@@ -1,0 +1,506 @@
+[
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562047047 - 182096972.pdf",
+    "success": true,
+    "document_id": "77679e1ca3434aef80c016d6fcd76d21",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1731
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561733904 - 182070037.pdf",
+    "success": true,
+    "document_id": "6581c9d207774b76b1323a6b609adf7f",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1642
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561952198 - 182087368.pdf",
+    "success": true,
+    "document_id": "967233fa2b0a420db68f2f924dddbe53",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2375
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562026786 - 182089298.pdf",
+    "success": true,
+    "document_id": "23896c57317f4f4fb1278706973a4e53",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1656
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561985023 - 182097481.pdf",
+    "success": true,
+    "document_id": "2fd016eb56a3456a872dca67d0d6b43f",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1717
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561977314 - 182090473.pdf",
+    "success": true,
+    "document_id": "afc9dc5d58a04b55bd25805d16148dff",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1541
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562163299 - 182111675.pdf",
+    "success": true,
+    "document_id": "477ad2cc7a8546139a64cef58cd3d2f2",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2776
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562111433 - 182084287.pdf",
+    "success": true,
+    "document_id": "a7368619856d4d6787ca99c08901b43d",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3171
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562022063 - 182088527.pdf",
+    "success": true,
+    "document_id": "2b86d124665d405b88e8a3dda1beaaf3",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2699
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561729502 - 182057856.pdf",
+    "success": true,
+    "document_id": "b94499c024354104b473ace37120e85e",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2517
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561768769 - 182075278.pdf",
+    "success": true,
+    "document_id": "a6f12445c3634af6b7263da08397bc7e",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5450
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561977226 - 182088560.pdf",
+    "success": true,
+    "document_id": "ad286e04a0734fa8a1d10bde7486d353",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1513
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562324355 - 1823009886.pdf",
+    "success": true,
+    "document_id": "070941036f6c44bfb98df31ccc001321",
+    "status": 200,
+    "error": null,
+    "duration_ms": 6691
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562163311 - 182111678.pdf",
+    "success": true,
+    "document_id": "dc89000f9b2a47eda461d03b2a4697df",
+    "status": 200,
+    "error": null,
+    "duration_ms": 6494
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561950008 - 182097457.pdf",
+    "success": true,
+    "document_id": "df09bd52b33548a2b9c71c9216fbe76f",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5894
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562078036 - 182098859.pdf",
+    "success": true,
+    "document_id": "2aac93dd45b24be2981e366af1f57b01",
+    "status": 200,
+    "error": null,
+    "duration_ms": 7791
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562211018 - 1825006372.pdf",
+    "success": true,
+    "document_id": "c722f10980414c30bcd036094abaf1a5",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2589
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561745888 - 182072223.pdf",
+    "success": true,
+    "document_id": "1e194eaa8ed642c79f355425b2485e28",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1630
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561936088 - 182088443.pdf",
+    "success": true,
+    "document_id": "594799253b72478f9b7883683ff138dc",
+    "status": 200,
+    "error": null,
+    "duration_ms": 437
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562143705 - 182083062.pdf",
+    "success": true,
+    "document_id": "6e4ee8a0489b4c20a425580cd6aa3ac3",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3621
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562043273 - 182093144.pdf",
+    "success": true,
+    "document_id": "d8e1cef6504d419b9c43547de0103d8e",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3119
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562316752 - 182087368.pdf",
+    "success": true,
+    "document_id": "0aff6e833c7b4c2dba5e9f20ebf66a27",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1488
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562101202 - 182098215.pdf",
+    "success": true,
+    "document_id": "ddc9722a228846beb6f55bdb9a3ce838",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4474
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561758419 - 182072091.pdf",
+    "success": true,
+    "document_id": "930b9107436d4d1ca1392d06ac613090",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3057
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562151877 - 182113909.pdf",
+    "success": true,
+    "document_id": "cdbcb3487eb04793b11630daf44de4e3",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2769
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562400923 - 182075278.pdf",
+    "success": true,
+    "document_id": "4cac45fb0a374ab280a0e3ade69be467",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3136
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562089046 - 182082009.pdf",
+    "success": true,
+    "document_id": "55a88a4f95e645e2a7891745132ba33b",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4118
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562064783 - 182084044.pdf",
+    "success": true,
+    "document_id": "e13d94d852014db9a2c42508237ff78a",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2670
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562243459 - 1823007361.pdf",
+    "success": true,
+    "document_id": "5d481ce33b2d41aa890e572e9d86e8d1",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5043
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561731572 - 182069193.pdf",
+    "success": true,
+    "document_id": "2f43fd4a435b46c2ab71c1accee059f8",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1228
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561989542 - 182094498.pdf",
+    "success": true,
+    "document_id": "1f6295ae52824b579c0188c26f4da877",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3592
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562106320 - 182095248.pdf",
+    "success": true,
+    "document_id": "e8b5303414154ee6ac01d16542ac7dab",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4310
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562194318 - 1825006104.pdf",
+    "success": true,
+    "document_id": "7a14c386d58e4502924bc840dcdf3d9a",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5188
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561820242 - 182086133.pdf",
+    "success": true,
+    "document_id": "6324988f7de7465a9d5abd1c1c1eaf07",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1390
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562063678 - 182098858.pdf",
+    "success": true,
+    "document_id": "67e2240f07d4408596c91dae4489db26",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1987
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562003567 - 182075278.pdf",
+    "success": true,
+    "document_id": "b18d182256c54ccb9f73b58544cc8218",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1900
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562215140 - 1826000376.pdf",
+    "success": true,
+    "document_id": "04bd8e1eac0a46db80daf15cfeb65720",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1791
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562126108 - 182080917.pdf",
+    "success": true,
+    "document_id": "c11c4773108f4694a9755850727034d3",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5500
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561849870 - 182093450.pdf",
+    "success": true,
+    "document_id": "4181303a59a243358415c8f593fbd574",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2182
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561753030 - 182068254.pdf",
+    "success": true,
+    "document_id": "e8146fbdfc01440d8dd022d7b5742d2a",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3615
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562026778 - 182089284.pdf",
+    "success": true,
+    "document_id": "4732e9461071453a8d8f8ab7ca1354bb",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4300
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562215094 - 1826000377.pdf",
+    "success": true,
+    "document_id": "22e6570b0f3d4a7bb44e281d4322562f",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4976
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562387932 - 1823013245.pdf",
+    "success": true,
+    "document_id": "09149e8268ee486cbfce58b89d42949b",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3877
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562243223 - 1825006981.pdf",
+    "success": true,
+    "document_id": "974b6b74c634470684a455f16c34e354",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4602
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561988888 - 182039113.pdf",
+    "success": true,
+    "document_id": "9ed38f2cd33749dc906ba522f3493ab5",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4803
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562065547 - 182084187.pdf",
+    "success": true,
+    "document_id": "957622d7dd194c338e8f883df3ffcc31",
+    "status": 200,
+    "error": null,
+    "duration_ms": 6804
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562143676 - 182080675.pdf",
+    "success": true,
+    "document_id": "25484d4429bf44f8b4d0e44c6ae96ea6",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2582
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562345132 - 1823012597.pdf",
+    "success": true,
+    "document_id": "c0f51fd47e1949c69ccbe1b581ac8908",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3092
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562025453 - 182098163.pdf",
+    "success": true,
+    "document_id": "0727b6d2ab534fc1b2dfb5dd08ba7a78",
+    "status": 200,
+    "error": null,
+    "duration_ms": 1377
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562297070 - 1823001188.pdf",
+    "success": true,
+    "document_id": "cc77b83b699544e49a979cbc3059c0b7",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2605
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562030822 - 182098991.pdf",
+    "success": true,
+    "document_id": "58f755fe20934942ac8c98a91e02c461",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3489
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562350139 - 182080917.pdf",
+    "success": true,
+    "document_id": "8115e8f8c6054438b699155dd77b289a",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4421
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562115951 - 182087368.pdf",
+    "success": true,
+    "document_id": "959e592286d44866bea7a98c21d68c96",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2768
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562061094 - 182095146.pdf",
+    "success": true,
+    "document_id": "f9861e3b71a74b5297751415d9ad4df0",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3617
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562211000 - 1825006372.pdf",
+    "success": true,
+    "document_id": "34cb4a5316384d9394e7f5820bb5592a",
+    "status": 200,
+    "error": null,
+    "duration_ms": 6773
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562106338 - 182095246.pdf",
+    "success": true,
+    "document_id": "fc915ff58bf54cd4a1e301317ed961d1",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3901
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562125072 - 182081273.pdf",
+    "success": true,
+    "document_id": "ba0d6f57372043cebf2eece3b6c0c458",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5253
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562023662 - 182088527.pdf",
+    "success": true,
+    "document_id": "810d91e368bc42d6ab97dac5101832db",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3691
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562243266 - 1825006997.pdf",
+    "success": true,
+    "document_id": "9fc6bc782d04483089e62b93a613bbe9",
+    "status": 200,
+    "error": null,
+    "duration_ms": 5126
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562150108 - 182082490.pdf",
+    "success": true,
+    "document_id": "cea7a6d97db947d4b50bf46eea059ca9",
+    "status": 200,
+    "error": null,
+    "duration_ms": 4003
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562006565 - 182095951.pdf",
+    "success": true,
+    "document_id": "0939a4c80ce54bfc948dc8274b360d49",
+    "status": 200,
+    "error": null,
+    "duration_ms": 2044
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102562165000 - 182098494.pdf",
+    "success": true,
+    "document_id": "ed52c77731914e6b843ae8e4acb29cb3",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3949
+  },
+  {
+    "file_path": "/Users/daniellanghann/src/api-showcase/api-showcase/src/api_showcase/rest_importer/test_documents/1_1_IMD/102561884797 - 182085359.pdf",
+    "success": true,
+    "document_id": "1cba34771cd0483882f35b051a2c9eed",
+    "status": 200,
+    "error": null,
+    "duration_ms": 3377
+  }
+]
