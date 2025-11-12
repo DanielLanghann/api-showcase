@@ -1,0 +1,20 @@
+{
+  "generated_at": "2025-11-12T09:49:49.586039",
+  "upload_url": "https://api-lc-test.ovb.eu/api/v1/dataimport/jsonimport",
+  "total_files": 1,
+  "successful_uploads": 1,
+  "failed_uploads": 0,
+  "results": [
+    {
+      "status": "success",
+      "file": "e67feac26414488288af886ce7e1c021.json",
+      "response": {
+        "statusCode": 200,
+        "message": "Import successful.",
+        "success": true,
+        "rowsAffected": 1,
+        "documentId": "e67feac26414488288af886ce7e1c021"
+      }
+    }
+  ]
+}

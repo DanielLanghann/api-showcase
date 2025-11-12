@@ -15,10 +15,10 @@ from .auth import get_token
 from .upload_file import upload_file, UploadResult
 
 
-workflow = "/imd_check"  # Will be supplied via query params by upload_file
+workflow = "/root"  # Will be supplied via query params by upload_file
 scope = "production"
 ENVIRONMENT = config("ENVIRONMENT", default="prod").lower()
-upload_url = config("PROD_UPLOAD_URL") if ENVIRONMENT == "prod" else config("PROD_UPLOAD_URL", default=config("PROD_UPLOAD_URL"))
+upload_url = config("STAGE_UPLOAD_URL") if ENVIRONMENT == "prod" else config("STAGE_UPLOAD_URL", default=config("STAGE_UPLOAD_URL"))
 
 
 async def upload_files_from_folder(
@@ -27,7 +27,8 @@ async def upload_files_from_folder(
     scope: str = scope.lower(),
     workflow: str = workflow,
     upload_url: str = upload_url,
-    metadata: dict = None
+    metadata: dict = None,
+    delay_between_uploads: float = 3.0
 ) -> List[UploadResult]:
     """
     Upload all files from a specified folder one by one.
@@ -39,6 +40,7 @@ async def upload_files_from_folder(
         workflow: Workflow path (default: /imd)
         upload_url: URL endpoint for uploads
         metadata: Optional metadata to attach to all uploads
+        delay_between_uploads: Delay in seconds between uploads (default: 3.0)
     
     Returns:
         List of UploadResult objects for each file
@@ -86,9 +88,10 @@ async def upload_files_from_folder(
         
         results.append(result)
         
-        # Small delay between uploads to avoid overwhelming the server
+        # Delay between uploads to avoid overwhelming the server
         if i < len(files):
-            await asyncio.sleep(0.5)
+            print(f"⏳ Waiting {delay_between_uploads}s before next upload...")
+            await asyncio.sleep(delay_between_uploads)
     
     return results
 
@@ -125,7 +128,7 @@ async def main():
     # Specify the folder path
     # Resolve folder path relative to this script's directory for reliability
     base_dir = os.path.dirname(__file__)
-    folder_path = os.path.join(base_dir, "test_documents/1_1_IMD")
+    folder_path = os.path.join(base_dir, "test_documents/ALL")
     
     # Optional: Add metadata for all uploads
     metadata = {
@@ -140,7 +143,8 @@ async def main():
         access_token=access_token,
         scope=scope,
         workflow=workflow,
-        metadata=metadata
+        metadata=metadata,
+        delay_between_uploads=8
     )
     
     # Print summary

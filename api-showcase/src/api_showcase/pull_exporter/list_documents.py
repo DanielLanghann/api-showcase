@@ -17,7 +17,7 @@ ALLOWED_SCOPES = {
 
 default_scope = config("DEFAULT_SCOPE", default="Production")
 org_id = config("ORGANIZATION_ID")
-document_list_url = config("PROD_DOCUMENTS_LIST_URL")
+document_list_url = config("STAGE_DOCUMENTS_LIST_URL")
 
 
 

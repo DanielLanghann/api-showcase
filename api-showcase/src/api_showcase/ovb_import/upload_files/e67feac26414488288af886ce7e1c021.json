@@ -1,0 +1,352 @@
+{
+  "max_number_of_plausible_checks": 1.0,
+  "errors": [],
+  "assessments": [
+    {
+      "id_by_organization": "Is an Advisory record available?",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "value": "True",
+      "id": "/root/completeness/consultation_record",
+      "value_score": 0.9999986290931702,
+      "category": "Completeness"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.8617105484008789,
+      "value_score": 0.9999992847442627,
+      "id_by_organization": "Is proof of identity documented?",
+      "comment": "A copy of the customer's ID card is available on page 12 and page 22.",
+      "id": "/imd_check/vollstaendigkeit_kopie/proof_of_identity",
+      "category": "Completeness"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9291715025901794,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Is product information available, or has its delivery been confirmed?",
+      "comment": "'INFORMACION PREVIA INDIVIDUALIZADA' (Individualized Pre-contractual Information), which serves as product information, is available on pages 9-11. The customer also confirms its receipt on page 8.",
+      "id": "/imd_check/vollstaendigkeit_kopie/consultation_record_kopie",
+      "category": "Completeness"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9460084438323975,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Is the insurance application or the policy available?",
+      "comment": "The insurance application from FWU is available on pages 5-8.",
+      "id": "/imd_check/vollstaendigkeit_kopie/application.insurance_policy",
+      "category": "Completeness"
+    },
+    {
+      "value": "False",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9989694356918335,
+      "value_score": 0.9999997019767761,
+      "id_by_organization": "Are the customer data completely documented?",
+      "comment": "The customer's email address is inconsistent between the consultation protocol ('jespanmor@gmail.com' on page 1) and the insurance application ('jespanma@gmail.com' on page 5).",
+      "id": "/imd_check/ueberwachungs._und_kontrollpflichtverletzung/dokumentation_von_kundendaten",
+      "category": "Breach of monitoring and control responsibilities"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9711747169494629,
+      "value_score": 0.9999997615814209,
+      "id_by_organization": "Has the customer confirmed that their information is complete and correct?",
+      "comment": "On page 8 of the application, the customer signs a declaration confirming that the provided data is true and up-to-date.",
+      "id": "/imd_check/ueberwachungs._und_kontrollpflichtverletzung/bestaetigung_der_vollstaendigkeit_und_korrekheit_von_kundendaten",
+      "category": "Breach of monitoring and control responsibilities"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 5.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.939699113368988,
+      "value_score": 0.9999986886978149,
+      "id_by_organization": "Are the date and location of the consultation documented in the consultation protocol and in the application?",
+      "comment": "The consultation date (14.09.2017) and location (Madrid) are documented and consistent across the consultation protocol (pages 3-4) and the application (page 8).",
+      "id": "/imd_check/nichtigkeit.unwirksamkeit_wegen_fehlender_form/datum_und_ort_der_beratung",
+      "category": "Nullity/invalidity due to lack of form"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9713764786720276,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Are all required signatures present?",
+      "comment": "All required signature fields in the consultation protocol (pages 1 and 3) and the insurance application (pages 7 and 8) are signed by the customer and the advisors.",
+      "id": "/imd_check/nichtigkeit.unwirksamkeit_wegen_fehlender_form/unterschriftenfelder_komplett_unterschrieben",
+      "category": "Nullity/invalidity due to lack of form"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9348582625389099,
+      "value_score": 0.9999998807907104,
+      "id_by_organization": "Was the recommendation made based on a market analysis?",
+      "comment": "The consultation protocol on page 2 explicitly lists and compares several products from different providers (Allianz, AXA, Plus Ultra, FWU, Generali) before making a recommendation, which demonstrates a market analysis.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/marktanalyse",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 60.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9892942309379578,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Is the date (and, if available, the time) of the consultation in the product partner\u2019s application plausible in relation to the OVB consultation documentation?",
+      "comment": "The consultation date in the OVB protocol (14/09/2017) and the date in the FWU application (14/09/2017) are identical and therefore plausible.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/consulting.date",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 5.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9888703227043152,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Is the OVB registration number specified?",
+      "comment": "The OVB registration number J 2254 is specified on page 4 of the consultation protocol.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/registernummer_ovb",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.8789578080177307,
+      "value_score": 0.9999997019767761,
+      "id_by_organization": "Is the handover of documents confirmed?",
+      "comment": "The customer confirms receipt of the Pre-contractual Information Note and other key documents by signing the application on page 8.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/dokumentenuebergabe",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9052343964576721,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Has the intermediary clearly disclosed whether the advice is tied or independent?",
+      "comment": "The informative note on page 4 of the consultation protocol discloses that OVB provides independent advice as a broker ('correduria de seguros') based on an objective analysis of the market.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/gebundene.ungebundene_beratung",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9903150200843811,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Was the information provided to the customer before contract conclusion?",
+      "comment": "On page 8 of the application, the customer signs a declaration explicitly stating they received the pre-contractual information 'antes de la firma de esta Proposici\u00f3n' (before the signing of this Application).",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/unverzueglich_nach_vertragsschluss",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "False",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 5.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9164798259735107,
+      "value_score": 0.999999463558197,
+      "id_by_organization": "Are the consultation\u2019s place, date, and all participants (including the OVB\u2011affiliated freelance broker) documented and consistent across the OVB consultation documentation (incl. data protection sheet) and the product partner\u2019s application?",
+      "comment": "The OVB protocol (page 1) lists Sandra Mu\u00f1oz Calvache and Esther Escudero Guirado as collaborating on the advice. The FWU application (page 7) only mentions Sandra Mu\u00f1oz Calvache as the mediator. Therefore, the set of participants is not consistent across all documents.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/beratungsdetails_ort_datum_beteiligte",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9826292991638184,
+      "value_score": 0.9999998807907104,
+      "id_by_organization": "Are the name and address of the personal insurance intermediary documented?",
+      "comment": "The names of the personal intermediary (Sandra Mu\u00f1oz Calvache) and a collaborating advisor (Esther Escudero Guirado) are documented on page 1 of the consultation protocol, along with their mobile phone numbers and email addresses.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/identitaet_und_anschrift_des_vermittlers",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "False",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 5.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9924131035804749,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Is the personal intermediary\u2019s register number specified in the document?",
+      "comment": "The protocol on page 1 lists a registration number for the collaborating advisor, Esther Escudero Guirado, but not for the main personal advisor, Sandra Mu\u00f1oz Calvache.",
+      "id": "/imd_check/verletzung_von_informations._und_transparenzpflichten/registereintrag_des_vermittlers_angegeben",
+      "category": "Violation of information and transparency obligations"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9411604404449463,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Is a justified product recommendation present?",
+      "comment": "On page 2 of the protocol, specific products are recommended, and the recommendation is justified with codes that refer to a legend of reasons (e.g., Flexibility, Liquidity, Time Horizon), connecting product features to the customer's objectives.",
+      "id": "/imd_check/verletzung_von_vorschriften_zur_angemessenheit_der_beratung/produktempfehlung",
+      "category": "Violation of regulations regardin the adequac of advice"
+    },
+    {
+      "value": "False",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 0.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9841028451919556,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Is a customer's waiver of advice explicitly documented?",
+      "comment": "The documents show that a full consultation was provided. There is no evidence of the customer waiving their right to advice.",
+      "id": "/imd_check/verletzung_von_vorschriften_zur_angemessenheit_der_beratung/beratungsverzicht_des_kunden",
+      "category": "Violation of regulations regardin the adequac of advice"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": true,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9464553594589233,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Do the investment objectives of the product align with the customer's needs?",
+      "comment": "The consultation protocol on pages 1 and 2 documents the customer's objectives and time horizons, and then recommends specific products (PIAS) that are aligned with these stated goals.",
+      "id": "/imd_check/verletzung_von_vorschriften_zur_angemessenheit_der_beratung/kundenwuensche.produkt.match",
+      "category": "Violation of regulations regardin the adequac of advice"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": true,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.8585852384567261,
+      "value_score": 0.9999999403953552,
+      "id_by_organization": "Were customer needs and requirements identified and documented?",
+      "comment": "Page 1 of the consultation protocol documents the customer's financial objectives ('Objetivos de Patrimonio'), such as a liquidity cushion (0-3 years) and long-term goals like retirement (+10 years).",
+      "id": "/imd_check/verletzung_von_vorschriften_zur_angemessenheit_der_beratung/dokumentation_der_kundenwuensche_und_beduerfnisse",
+      "category": "Violation of regulations regardin the adequac of advice"
+    },
+    {
+      "value": "True",
+      "config": {
+        "is_knockout": false,
+        "risk_if_no_or_missing": 10.0,
+        "consider_for_plausibility": false,
+        "must_be_truthy_for_continuation": false
+      },
+      "comment_score": 0.9781358242034912,
+      "value_score": 0.9999998211860657,
+      "id_by_organization": "Was the complaints procedure described?",
+      "comment": "The complaints procedure is detailed on page 4 of the consultation protocol, including contact information for OVB's customer service and the external ombudsman (Direcci\u00f3n General de Seguros y Fondos de Pensiones).",
+      "id": "/imd_check/verletzung_von_vorschriften_zum_schutz_des_versicherungsnehmers/beschreibung_des_beschwerdeverfahrens",
+      "category": "Violation of regulations for the protection of the policyholder/law"
+    }
+  ],
+  "tarrif_number": "SPR1",
+  "document_id": "e67feac26414488288af886ce7e1c021",
+  "document_title": "102561578216 - 182051681.pdf",
+  "risk_score": 20.0,
+  "signature_date": "2017-09-14T00:00:00",
+  "is_plausible": true,
+  "imported_at": "2025-11-12T08:45:27.355040+00:00",
+  "max_risk_points": 240.0,
+  "max_number_of_questions": 22.0,
+  "original_filename": "0_unknown",
+  "number_of_no_or_missing_questions": 4.0,
+  "check_type": "imd",
+  "pdf": "JVBERi0xLjMKJeLjz9MKMSAwIG9iago8PAovUHJvZHVjZXIgKHB5cGRmKQo+Pgpl...",
+  "country_code": "ES",
+  "application_number": "182051681",
+  "number_of_inplausible_questions": 0.0,
+  "max_number_of_knockout_questions": 7.0,
+  "number_of_knockedout_questions": 1.0
+}

@@ -9,7 +9,7 @@ import argparse
 from datetime import datetime, timezone
 from decouple import config
 
-document_details_url = config("PROD_DOCUMENT_DETAILS_URL")
+document_details_url = config("STAGE_DOCUMENT_DETAILS_URL")
 default_scope = config("DEFAULT_SCOPE")
 
 from ..rest_importer.auth import get_token

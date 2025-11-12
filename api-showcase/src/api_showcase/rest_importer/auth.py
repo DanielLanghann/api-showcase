@@ -4,8 +4,8 @@ import asyncio
 
 
 EMAIL = config("EMAIL")
-PASSWORD = config("PROD_PASSWORD", default=config("DEV_PASSWORD", default=""))
-AUTH_URL = config("PROD_AUTH_URL")
+PASSWORD = config("STAGE_PASSWORD", default=config("DEV_PASSWORD", default=""))
+AUTH_URL = config("STAGE_AUTH_URL")
 ORGANIZATION_ID="ovb"
 
 
